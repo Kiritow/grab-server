@@ -1,0 +1,23 @@
+{
+  "name": "grab-server",
+  "version": "1.0.0",
+  "description": "The Official Backend Server for Grab3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kiritow/grab-server.git"
+  },
+  "author": "Kiritow",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^9.0.1",
+    "lua-json": "^1.0.0",
+    "mysql": "^2.18.1"
+  }
+}
